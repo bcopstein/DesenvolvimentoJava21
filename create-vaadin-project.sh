@@ -124,3 +124,8 @@ Projeto básico com **Vaadin 24 + Spring Boot 3.2** e Java 21.
 cd $ARTIFACT_ID
 mvn clean install
 mvn spring-boot:run
+
+\`\`\`
+EOF
+
+echo "Projeto '$ARTIFACT_ID' criado com sucesso com Vaadin + Spring Boot e Java 21."
