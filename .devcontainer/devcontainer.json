@@ -5,7 +5,7 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "21",             // <--- define JDK 21 explicitamente
+      "version": "25",             // <--- define JDK 25 explicitamente
       "installMaven": true,
       "installGradle": false
     },
@@ -23,7 +23,7 @@
       "settings": {
         "java.configuration.runtimes": [
           {
-            "name": "JavaSE-21",
+            "name": "JavaSE-25",
             "path": "/usr/lib/jvm/msopenjdk-current",
             "default": true
           }
