@@ -5,7 +5,7 @@
   },
   "features": {
     "ghcr.io/devcontainers/features/java:1": {
-      "version": "25",             // <--- define JDK 25 explicitamente
+      "version": "21",             // <--- define JDK 21 explicitamente
       "installMaven": true,
       "installGradle": false
     },
@@ -18,13 +18,15 @@
         "oracle.oracle-java",
         "redhat.vscode-xml",
         "jebbs.plantuml",
-        "redhat.java"
+        "redhat.java",
+        "vscjava.vscode-test-runner",
+        "vscjava.vscode-maven"
       ],
       "settings": {
         "java.configuration.runtimes": [
           {
-            "name": "JavaSE-25",
-            "path": "/usr/lib/jvm/msopenjdk-current",
+            "name": "JavaSE-21",
+            "path": "/usr/local/sdkman/candidates/java/current",
             "default": true
           }
         ]
