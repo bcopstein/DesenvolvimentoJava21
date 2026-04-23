@@ -1,6 +1,6 @@
-# Desenvolvimento Java 25
+# Desenvolvimento Java 21
 - Repositório base para uso em disciplinas de desenvolvimento de software
-- Configurado para desenvolvimento em Java25 
+- Configurado para desenvolvimento em Java21
 - Pensado para ser usado como "Monorepo" para uma série de projetos de aula
 - As instruções a seguir referem-se ao uso deste repositório em conjunto com o CodeSpaces
 
